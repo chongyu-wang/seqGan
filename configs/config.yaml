@@ -1,0 +1,13 @@
+training:
+  epochs: 100
+  batch_size: 64
+  learning_rate: 0.0002
+  beta1: 0.5
+
+model:
+  generator:
+    layers: [256, 512, 1024]
+    latent_dim: 100
+  discriminator:
+    layers: [1024, 512, 256]
+
