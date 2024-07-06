@@ -7,6 +7,7 @@ import pandas as pd
 import tensorflow as tf
 from sklearn.ensemble import IsolationForest
 import joblib
+import random
 
 # Add the root directory to the Python path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
